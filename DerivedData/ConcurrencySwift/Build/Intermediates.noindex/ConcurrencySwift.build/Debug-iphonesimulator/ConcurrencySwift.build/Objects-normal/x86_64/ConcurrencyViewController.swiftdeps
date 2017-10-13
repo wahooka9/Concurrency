@@ -1,0 +1,610 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "lock"
+- "cond"
+- "arry"
+- "WriterThread"
+- "ReaderThread"
+- "BasicThread"
+- "ConcurrencyViewController"
+provides-nominal:
+- "16ConcurrencySwift12WriterThreadC"
+- "16ConcurrencySwift12ReaderThreadC"
+- "16ConcurrencySwift11BasicThreadC"
+- "16ConcurrencySwift0A14ViewControllerC"
+provides-member:
+- ["16ConcurrencySwift12WriterThreadC", ""]
+- ["16ConcurrencySwift12ReaderThreadC", ""]
+- ["16ConcurrencySwift11BasicThreadC", ""]
+- ["16ConcurrencySwift0A14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "main"
+- "runThread"
+- "viewDidLoad"
+depends-top-level:
+- !private "!"
+- !private "..<"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BasicThread"
+- !private "BlockOperation"
+- "ConcurrencyViewController"
+- !private "Date"
+- "Int"
+- "NSCondition"
+- "NSLock"
+- !private "OperationQueue"
+- "ReaderThread"
+- !private "StringLiteralType"
+- "Thread"
+- "UIViewController"
+- !private "UnicodeScalarType"
+- "WriterThread"
+- "arry"
+- "cond"
+- "lock"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "popLast"]
+- !private ["16ConcurrencySwift11BasicThreadC", "Array"]
+- !private ["16ConcurrencySwift11BasicThreadC", "Date"]
+- !private ["16ConcurrencySwift11BasicThreadC", "Int"]
+- !private ["16ConcurrencySwift11BasicThreadC", "Thread"]
+- ["16ConcurrencySwift11BasicThreadC", "deinit"]
+- ["16ConcurrencySwift11BasicThreadC", "init"]
+- !private ["16ConcurrencySwift11BasicThreadC", "lock"]
+- ["16ConcurrencySwift11BasicThreadC", "main"]
+- !private ["16ConcurrencySwift11BasicThreadC", "print"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "popLast"]
+- !private ["So14BlockOperationC", "addDependency"]
+- !private ["So14BlockOperationC", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "BlockOperation"]
+- !private ["s7CVarArgP", "Date"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "OperationQueue"]
+- !private ["s7CVarArgP", "Thread"]
+- !private ["s7CVarArgP", "addDependency"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "arry"]
+- !private ["s7CVarArgP", "cond"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "lock"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "maxConcurrentOperationCount"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "popLast"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "sleep"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s7CVarArgP", "wait"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "popLast"]
+- !private ["s10ComparableP", "addingTimeInterval"]
+- !private ["s10ComparableP", "init"]
+- !private ["16ConcurrencySwift0A14ViewControllerC", "BlockOperation"]
+- !private ["16ConcurrencySwift0A14ViewControllerC", "OperationQueue"]
+- ["16ConcurrencySwift0A14ViewControllerC", "deinit"]
+- ["16ConcurrencySwift0A14ViewControllerC", "didReceiveMemoryWarning"]
+- ["16ConcurrencySwift0A14ViewControllerC", "init"]
+- !private ["16ConcurrencySwift0A14ViewControllerC", "print"]
+- ["16ConcurrencySwift0A14ViewControllerC", "runThread"]
+- ["16ConcurrencySwift0A14ViewControllerC", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "BlockOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "Date"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "Thread"]
+- !private ["s28CustomDebugStringConvertibleP", "addDependency"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "addingTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arry"]
+- !private ["s28CustomDebugStringConvertibleP", "cond"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "popLast"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "sleep"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingTimeInterval"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addingTimeInterval"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "popLast"]
+- !private ["s23CustomStringConvertibleP", "BlockOperation"]
+- !private ["s23CustomStringConvertibleP", "Date"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "OperationQueue"]
+- !private ["s23CustomStringConvertibleP", "Thread"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addDependency"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arry"]
+- !private ["s23CustomStringConvertibleP", "cond"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "popLast"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "sleep"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["10Foundation4DateV", "addingTimeInterval"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "addingTimeInterval"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isEmpty"]
+- !private ["s9DecodableP", "popLast"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "addingTimeInterval"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isEmpty"]
+- !private ["s9EncodableP", "popLast"]
+- !private ["s9EquatableP", "BlockOperation"]
+- !private ["s9EquatableP", "Date"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "OperationQueue"]
+- !private ["s9EquatableP", "Thread"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addDependency"]
+- !private ["s9EquatableP", "addOperation"]
+- !private ["s9EquatableP", "addingTimeInterval"]
+- !private ["s9EquatableP", "arry"]
+- !private ["s9EquatableP", "cond"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lock"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "maxConcurrentOperationCount"]
+- !private ["s9EquatableP", "name"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "signal"]
+- !private ["s9EquatableP", "sleep"]
+- !private ["s9EquatableP", "unlock"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s9EquatableP", "wait"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "popLast"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "BlockOperation"]
+- !private ["s8HashableP", "Date"]
+- !private ["s8HashableP", "Int"]
+- !private ["s8HashableP", "OperationQueue"]
+- !private ["s8HashableP", "Thread"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addDependency"]
+- !private ["s8HashableP", "addOperation"]
+- !private ["s8HashableP", "addingTimeInterval"]
+- !private ["s8HashableP", "arry"]
+- !private ["s8HashableP", "cond"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lock"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "maxConcurrentOperationCount"]
+- !private ["s8HashableP", "name"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "signal"]
+- !private ["s8HashableP", "sleep"]
+- !private ["s8HashableP", "unlock"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s8HashableP", "wait"]
+- ["s8HashableP", ""]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "isEmpty"]
+- !private ["s17MutableCollectionP", "popLast"]
+- !private ["So8NSCodingP", "BlockOperation"]
+- !private ["So8NSCodingP", "OperationQueue"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- ["So11NSConditionC", "init"]
+- !private ["So11NSConditionC", "lock"]
+- !private ["So11NSConditionC", "signal"]
+- !private ["So11NSConditionC", "unlock"]
+- !private ["So11NSConditionC", "wait"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "BlockOperation"]
+- !private ["So26NSExtensionRequestHandlingP", "OperationQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So6NSLockC", "init"]
+- !private ["So6NSLockC", "lock"]
+- !private ["So6NSLockC", "unlock"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "signal"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So9NSLockingP", "wait"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "Array"]
+- !private ["So8NSObjectC", "BlockOperation"]
+- !private ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "OperationQueue"]
+- !private ["So8NSObjectC", "Thread"]
+- !private ["So8NSObjectC", "addDependency"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "arry"]
+- !private ["So8NSObjectC", "cond"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "maxConcurrentOperationCount"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "runThread"]
+- !private ["So8NSObjectC", "signal"]
+- !private ["So8NSObjectC", "sleep"]
+- !private ["So8NSObjectC", "unlock"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So16NSObjectProtocolP", "BlockOperation"]
+- !private ["So16NSObjectProtocolP", "Date"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- !private ["So16NSObjectProtocolP", "OperationQueue"]
+- !private ["So16NSObjectProtocolP", "Thread"]
+- !private ["So16NSObjectProtocolP", "addDependency"]
+- !private ["So16NSObjectProtocolP", "addOperation"]
+- !private ["So16NSObjectProtocolP", "arry"]
+- !private ["So16NSObjectProtocolP", "cond"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lock"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "maxConcurrentOperationCount"]
+- !private ["So16NSObjectProtocolP", "name"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "signal"]
+- !private ["So16NSObjectProtocolP", "sleep"]
+- !private ["So16NSObjectProtocolP", "unlock"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "wait"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["So9OperationC", "addDependency"]
+- !private ["So9OperationC", "init"]
+- !private ["So14OperationQueueC", "addOperation"]
+- !private ["So14OperationQueueC", "init"]
+- !private ["So14OperationQueueC", "main"]
+- !private ["So14OperationQueueC", "maxConcurrentOperationCount"]
+- !private ["So14OperationQueueC", "name"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "isEmpty"]
+- !private ["s22RandomAccessCollectionP", "popLast"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "popLast"]
+- !private ["16ConcurrencySwift12ReaderThreadC", "arry"]
+- !private ["16ConcurrencySwift12ReaderThreadC", "cond"]
+- ["16ConcurrencySwift12ReaderThreadC", "deinit"]
+- ["16ConcurrencySwift12ReaderThreadC", "init"]
+- ["16ConcurrencySwift12ReaderThreadC", "main"]
+- !private ["16ConcurrencySwift12ReaderThreadC", "print"]
+- !private ["10Foundation20ReferenceConvertibleP", "addingTimeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "append"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "popLast"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So6ThreadC", "Array"]
+- !private ["So6ThreadC", "Date"]
+- !private ["So6ThreadC", "Int"]
+- !private ["So6ThreadC", "Thread"]
+- !private ["So6ThreadC", "arry"]
+- !private ["So6ThreadC", "cond"]
+- ["So6ThreadC", "init"]
+- !private ["So6ThreadC", "lock"]
+- ["So6ThreadC", "main"]
+- !private ["So6ThreadC", "print"]
+- !private ["So6ThreadC", "sleep"]
+- ["So6ThreadC", ""]
+- !private ["So21UIAppearanceContainerP", "BlockOperation"]
+- !private ["So21UIAppearanceContainerP", "OperationQueue"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "BlockOperation"]
+- !private ["So18UIContentContainerP", "OperationQueue"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIFocusEnvironmentP", "BlockOperation"]
+- !private ["So18UIFocusEnvironmentP", "OperationQueue"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "BlockOperation"]
+- !private ["So30UIPasteConfigurationSupportingP", "OperationQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "BlockOperation"]
+- !private ["So11UIResponderC", "OperationQueue"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "runThread"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "BlockOperation"]
+- !private ["So30UIResponderStandardEditActionsP", "OperationQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So16UIStateRestoringP", "BlockOperation"]
+- !private ["So16UIStateRestoringP", "OperationQueue"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So18UITraitEnvironmentP", "BlockOperation"]
+- !private ["So18UITraitEnvironmentP", "OperationQueue"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So16UIViewControllerC", "BlockOperation"]
+- !private ["So16UIViewControllerC", "OperationQueue"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "runThread"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- !private ["16ConcurrencySwift12WriterThreadC", "arry"]
+- !private ["16ConcurrencySwift12WriterThreadC", "cond"]
+- ["16ConcurrencySwift12WriterThreadC", "deinit"]
+- ["16ConcurrencySwift12WriterThreadC", "init"]
+- ["16ConcurrencySwift12WriterThreadC", "main"]
+- !private ["s14_ArrayProtocolP", "append"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "popLast"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "isEmpty"]
+- !private ["s23_BidirectionalIndexableP", "popLast"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "popLast"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "append"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "isEmpty"]
+- !private ["s10_IndexableP", "popLast"]
+- !private ["s14_IndexableBaseP", "append"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "isEmpty"]
+- !private ["s14_IndexableBaseP", "popLast"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BlockOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Thread"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addDependency"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arry"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cond"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maxConcurrentOperationCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sleep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "isEmpty"]
+- !private ["s17_MutableIndexableP", "popLast"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addingTimeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "popLast"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "isEmpty"]
+- !private ["s22_RandomAccessIndexableP", "popLast"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "isEmpty"]
+- !private ["s26_RangeReplaceableIndexableP", "popLast"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "16ConcurrencySwift11BasicThreadC"
+- "s23BidirectionalCollectionP"
+- !private "So14BlockOperationC"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "16ConcurrencySwift0A14ViewControllerC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So11NSConditionC"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So6NSLockC"
+- "So9NSLockingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So9OperationC"
+- !private "So14OperationQueueC"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "16ConcurrencySwift12ReaderThreadC"
+- !private "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So6ThreadC"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- "16ConcurrencySwift12WriterThreadC"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ba9597c6e6b67c06c193b1c0dee659a3"

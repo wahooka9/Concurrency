@@ -1,0 +1,589 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MazeSingleCore"
+provides-nominal:
+- "16ConcurrencySwift14MazeSingleCoreC"
+provides-member:
+- ["16ConcurrencySwift14MazeSingleCoreC", ""]
+provides-dynamic-lookup:
+- "create"
+- "createPath"
+- "getDown"
+- "getRandomHole"
+- "getRandomWall"
+- "getRight"
+- "maze"
+- "printMaze"
+- "putUpWallHorizontal"
+- "putUpWallVertical"
+depends-top-level:
+- !private "%"
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "/"
+- !private "<="
+- !private "=="
+- !private ">="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CAShapeLayer"
+- !private "CGPoint"
+- "Int"
+- "Int8"
+- "MazeSingleCore"
+- "NSObject"
+- !private "UIBezierPath"
+- !private "UIColor"
+- !private "arc4random"
+- "mazeDelegate"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "count"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s13BinaryIntegerP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So7CALayerC", "borderColor"]
+- !private ["So7CALayerC", "fillColor"]
+- !private ["So7CALayerC", "init"]
+- !private ["So7CALayerC", "path"]
+- !private ["So7CALayerC", "strokeColor"]
+- !private ["So13CAMediaTimingP", "borderColor"]
+- !private ["So13CAMediaTimingP", "fillColor"]
+- !private ["So13CAMediaTimingP", "init"]
+- !private ["So13CAMediaTimingP", "path"]
+- !private ["So13CAMediaTimingP", "strokeColor"]
+- !private ["So12CAShapeLayerC", "borderColor"]
+- !private ["So12CAShapeLayerC", "fillColor"]
+- !private ["So12CAShapeLayerC", "init"]
+- !private ["So12CAShapeLayerC", "path"]
+- !private ["So12CAShapeLayerC", "strokeColor"]
+- !private ["SC7CGPointV", "init"]
+- !private ["s7CVarArgP", "CAShapeLayer"]
+- !private ["s7CVarArgP", "CGPoint"]
+- !private ["s7CVarArgP", "Int"]
+- ["s7CVarArgP", "Int8"]
+- !private ["s7CVarArgP", "UIBezierPath"]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "addLine"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "arc4random"]
+- !private ["s7CVarArgP", "black"]
+- !private ["s7CVarArgP", "borderColor"]
+- !private ["s7CVarArgP", "cgColor"]
+- !private ["s7CVarArgP", "cgPath"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "createPath"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "fillColor"]
+- !private ["s7CVarArgP", "getDown"]
+- !private ["s7CVarArgP", "getRandomHole"]
+- !private ["s7CVarArgP", "getRandomWall"]
+- !private ["s7CVarArgP", "getRight"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "maze"]
+- !private ["s7CVarArgP", "move"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "putUpWallHorizontal"]
+- !private ["s7CVarArgP", "putUpWallVertical"]
+- !private ["s7CVarArgP", "size"]
+- !private ["s7CVarArgP", "strokeColor"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "white"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CAShapeLayer"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- ["s28CustomDebugStringConvertibleP", "Int8"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBezierPath"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "addLine"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arc4random"]
+- !private ["s28CustomDebugStringConvertibleP", "black"]
+- !private ["s28CustomDebugStringConvertibleP", "borderColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cgColor"]
+- !private ["s28CustomDebugStringConvertibleP", "cgPath"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "createPath"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "fillColor"]
+- !private ["s28CustomDebugStringConvertibleP", "getDown"]
+- !private ["s28CustomDebugStringConvertibleP", "getRandomHole"]
+- !private ["s28CustomDebugStringConvertibleP", "getRandomWall"]
+- !private ["s28CustomDebugStringConvertibleP", "getRight"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "maze"]
+- !private ["s28CustomDebugStringConvertibleP", "move"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "putUpWallHorizontal"]
+- !private ["s28CustomDebugStringConvertibleP", "putUpWallVertical"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "strokeColor"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "CAShapeLayer"]
+- !private ["s23CustomStringConvertibleP", "CGPoint"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- ["s23CustomStringConvertibleP", "Int8"]
+- !private ["s23CustomStringConvertibleP", "UIBezierPath"]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addLine"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "arc4random"]
+- !private ["s23CustomStringConvertibleP", "black"]
+- !private ["s23CustomStringConvertibleP", "borderColor"]
+- !private ["s23CustomStringConvertibleP", "cgColor"]
+- !private ["s23CustomStringConvertibleP", "cgPath"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "createPath"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "fillColor"]
+- !private ["s23CustomStringConvertibleP", "getDown"]
+- !private ["s23CustomStringConvertibleP", "getRandomHole"]
+- !private ["s23CustomStringConvertibleP", "getRandomWall"]
+- !private ["s23CustomStringConvertibleP", "getRight"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "maze"]
+- !private ["s23CustomStringConvertibleP", "move"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "putUpWallHorizontal"]
+- !private ["s23CustomStringConvertibleP", "putUpWallVertical"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- !private ["s23CustomStringConvertibleP", "strokeColor"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "CAShapeLayer"]
+- !private ["s9EquatableP", "CGPoint"]
+- !private ["s9EquatableP", "Int"]
+- ["s9EquatableP", "Int8"]
+- !private ["s9EquatableP", "UIBezierPath"]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addLine"]
+- !private ["s9EquatableP", "arc4random"]
+- !private ["s9EquatableP", "black"]
+- !private ["s9EquatableP", "borderColor"]
+- !private ["s9EquatableP", "cgColor"]
+- !private ["s9EquatableP", "cgPath"]
+- !private ["s9EquatableP", "createPath"]
+- !private ["s9EquatableP", "delegate"]
+- !private ["s9EquatableP", "fillColor"]
+- !private ["s9EquatableP", "getDown"]
+- !private ["s9EquatableP", "getRandomHole"]
+- !private ["s9EquatableP", "getRandomWall"]
+- !private ["s9EquatableP", "getRight"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "maze"]
+- !private ["s9EquatableP", "move"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "putUpWallHorizontal"]
+- !private ["s9EquatableP", "putUpWallVertical"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "strokeColor"]
+- !private ["s9EquatableP", "white"]
+- ["s9EquatableP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s8HashableP", "CAShapeLayer"]
+- !private ["s8HashableP", "CGPoint"]
+- !private ["s8HashableP", "Int"]
+- ["s8HashableP", "Int8"]
+- !private ["s8HashableP", "UIBezierPath"]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addLine"]
+- !private ["s8HashableP", "arc4random"]
+- !private ["s8HashableP", "black"]
+- !private ["s8HashableP", "borderColor"]
+- !private ["s8HashableP", "cgColor"]
+- !private ["s8HashableP", "cgPath"]
+- !private ["s8HashableP", "createPath"]
+- !private ["s8HashableP", "delegate"]
+- !private ["s8HashableP", "fillColor"]
+- !private ["s8HashableP", "getDown"]
+- !private ["s8HashableP", "getRandomHole"]
+- !private ["s8HashableP", "getRandomWall"]
+- !private ["s8HashableP", "getRight"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "maze"]
+- !private ["s8HashableP", "move"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "putUpWallHorizontal"]
+- !private ["s8HashableP", "putUpWallVertical"]
+- !private ["s8HashableP", "size"]
+- !private ["s8HashableP", "strokeColor"]
+- !private ["s8HashableP", "white"]
+- ["s8HashableP", ""]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "Bool"]
+- !private ["16ConcurrencySwift14MazeSingleCoreC", "CAShapeLayer"]
+- !private ["16ConcurrencySwift14MazeSingleCoreC", "CGPoint"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "Int"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "Int8"]
+- !private ["16ConcurrencySwift14MazeSingleCoreC", "UIBezierPath"]
+- !private ["16ConcurrencySwift14MazeSingleCoreC", "UIColor"]
+- !private ["16ConcurrencySwift14MazeSingleCoreC", "arc4random"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "create"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "createPath"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "deinit"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "delegate"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "getDown"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "getRandomHole"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "getRandomWall"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "getRight"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "init"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "maze"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "mazeDelegate"]
+- !private ["16ConcurrencySwift14MazeSingleCoreC", "print"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "printMaze"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "putUpWallHorizontal"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "putUpWallVertical"]
+- ["16ConcurrencySwift14MazeSingleCoreC", "size"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s25MutableBidirectionalSliceV", "subscript"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["s24MutableRandomAccessSliceV", "subscript"]
+- !private ["s12MutableSliceV", "subscript"]
+- !private ["So8NSCodingP", "addLine"]
+- !private ["So8NSCodingP", "black"]
+- !private ["So8NSCodingP", "borderColor"]
+- !private ["So8NSCodingP", "cgColor"]
+- !private ["So8NSCodingP", "cgPath"]
+- !private ["So8NSCodingP", "fillColor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "move"]
+- !private ["So8NSCodingP", "path"]
+- !private ["So8NSCodingP", "strokeColor"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So9NSCopyingP", "addLine"]
+- !private ["So9NSCopyingP", "black"]
+- !private ["So9NSCopyingP", "cgColor"]
+- !private ["So9NSCopyingP", "cgPath"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "move"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "black"]
+- !private ["So21NSItemProviderReadingP", "cgColor"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "black"]
+- !private ["So21NSItemProviderWritingP", "cgColor"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "CAShapeLayer"]
+- !private ["So8NSObjectC", "CGPoint"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Int8"]
+- !private ["So8NSObjectC", "UIBezierPath"]
+- !private ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "addLine"]
+- !private ["So8NSObjectC", "arc4random"]
+- !private ["So8NSObjectC", "black"]
+- !private ["So8NSObjectC", "borderColor"]
+- !private ["So8NSObjectC", "cgColor"]
+- !private ["So8NSObjectC", "cgPath"]
+- ["So8NSObjectC", "create"]
+- ["So8NSObjectC", "createPath"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "fillColor"]
+- ["So8NSObjectC", "getDown"]
+- ["So8NSObjectC", "getRandomHole"]
+- ["So8NSObjectC", "getRandomWall"]
+- ["So8NSObjectC", "getRight"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "maze"]
+- ["So8NSObjectC", "mazeDelegate"]
+- !private ["So8NSObjectC", "move"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "printMaze"]
+- ["So8NSObjectC", "putUpWallHorizontal"]
+- ["So8NSObjectC", "putUpWallVertical"]
+- ["So8NSObjectC", "size"]
+- !private ["So8NSObjectC", "strokeColor"]
+- !private ["So8NSObjectC", "white"]
+- ["So8NSObjectC", ""]
+- !private ["So16NSObjectProtocolP", "CAShapeLayer"]
+- !private ["So16NSObjectProtocolP", "CGPoint"]
+- !private ["So16NSObjectProtocolP", "Int"]
+- ["So16NSObjectProtocolP", "Int8"]
+- !private ["So16NSObjectProtocolP", "UIBezierPath"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "addLine"]
+- !private ["So16NSObjectProtocolP", "arc4random"]
+- !private ["So16NSObjectProtocolP", "black"]
+- !private ["So16NSObjectProtocolP", "borderColor"]
+- !private ["So16NSObjectProtocolP", "cgColor"]
+- !private ["So16NSObjectProtocolP", "cgPath"]
+- !private ["So16NSObjectProtocolP", "createPath"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- !private ["So16NSObjectProtocolP", "fillColor"]
+- !private ["So16NSObjectProtocolP", "getDown"]
+- !private ["So16NSObjectProtocolP", "getRandomHole"]
+- !private ["So16NSObjectProtocolP", "getRandomWall"]
+- !private ["So16NSObjectProtocolP", "getRight"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "maze"]
+- !private ["So16NSObjectProtocolP", "move"]
+- !private ["So16NSObjectProtocolP", "path"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "putUpWallHorizontal"]
+- !private ["So16NSObjectProtocolP", "putUpWallVertical"]
+- !private ["So16NSObjectProtocolP", "size"]
+- !private ["So16NSObjectProtocolP", "strokeColor"]
+- !private ["So16NSObjectProtocolP", "white"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "addLine"]
+- !private ["So14NSSecureCodingP", "black"]
+- !private ["So14NSSecureCodingP", "borderColor"]
+- !private ["So14NSSecureCodingP", "cgColor"]
+- !private ["So14NSSecureCodingP", "cgPath"]
+- !private ["So14NSSecureCodingP", "fillColor"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "move"]
+- !private ["So14NSSecureCodingP", "path"]
+- !private ["So14NSSecureCodingP", "strokeColor"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["s7NumericP", "init"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s21RangeReplaceableSliceV", "subscript"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["So12UIBezierPathC", "addLine"]
+- !private ["So12UIBezierPathC", "cgPath"]
+- !private ["So12UIBezierPathC", "init"]
+- !private ["So12UIBezierPathC", "move"]
+- !private ["So7UIColorC", "black"]
+- !private ["So7UIColorC", "cgColor"]
+- !private ["So7UIColorC", "white"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s23_BidirectionalIndexableP", "count"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "black"]
+- !private ["s26_ExpressibleByColorLiteralP", "cgColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s10_IndexableP", "count"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["s14_IndexableBaseP", "count"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CAShapeLayer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Int8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBezierPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addLine"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arc4random"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "black"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "borderColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cgPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fillColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getRandomHole"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getRandomWall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getRight"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maze"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "move"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "putUpWallHorizontal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "putUpWallVertical"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "strokeColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s17_MutableIndexableP", "count"]
+- ["s17_MutableIndexableP", "init"]
+- !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "count"]
+- ["s22_RandomAccessIndexableP", "init"]
+- !private ["s22_RandomAccessIndexableP", "subscript"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "count"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "subscript"]
+- !private ["s11_StrideableP", "init"]
+- !private ["16ConcurrencySwift12mazeDelegateP", "showMaze"]
+depends-nominal:
+- "Sa"
+- !private "s10ArraySliceV"
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- !private "So7CALayerC"
+- !private "So13CAMediaTimingP"
+- !private "So12CAShapeLayerC"
+- !private "SC7CGPointV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- "16ConcurrencySwift14MazeSingleCoreC"
+- !private "s10MirrorPathP"
+- !private "s25MutableBidirectionalSliceV"
+- "s17MutableCollectionP"
+- !private "s24MutableRandomAccessSliceV"
+- !private "s12MutableSliceV"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s21RangeReplaceableSliceV"
+- "s8SequenceP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "So12UIBezierPathC"
+- !private "So7UIColorC"
+- "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s18_BitwiseOperationsP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- !private "s11_StrideableP"
+- !private "16ConcurrencySwift12mazeDelegateP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "887c76d211d44920d9fda1a2e1be355a"
